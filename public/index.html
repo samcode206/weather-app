@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <meta name="description" content="">
+            <meta name="author" content="">
+               <link rel="icon" href="../../../../favicon.ico">
+                  <title>NodeJS Weather App</title>
+                  <!-- Bootstrap core CSS -->
+                  <link href="https://bootsnipp.com/bootstrap-builder/css/editor.css" rel="stylesheet">
+                     <!-- Custom styles for this template -->
+                     <link href="https://bootsnipp.com/bootstrap-builder/demo/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
+                        <style type="text/css">.c1-ui-state-hover {background-color:yellow !important; padding:5px !important }
+                        .loginBtn{
+                           float: left;
+                        }
+                        </style>
+                     </head>
+                     <body>
+                           
+                        <div class="container">
+                           <nav class="navbar navbar-expand-lg navbar-light bg-light" style="">
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                 <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                 <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active"></li>
+                                       <a href="/login.html" class="loginBtn">login</a>
+                                    <li class="nav-item"></li>
+                                    <li class="nav-item"></li>
+                                 </ul>
+                            
+                                 <form class="form-inline my-2 my-lg-0" _lpchecked="1">
+                                   
+                                    <input class="form-control mr-sm-2" id="zipValue" type="text" placeholder="Zip Code" aria-label="Zip Code">
+                                       <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
+                                    </form>
+                                 </div>
+                              </nav>
+                              <footer class="footer">
+                                 <ul class="list-group" style="">
+                                 </ul>
+                                 <p contenteditable="true" spellcheckker="false">
+                                    <div class="card" style="margin-top: 30px;">
+                                       <div class="card" style="margin-top: 0px;">
+                                          <div class="card-body" style="margin-top: 0px;">
+                                             <h4 class="card-title">
+                                                <b id='location'></b>
+                                             </h4>
+                                             <div class="row" style="">
+                                                <div class="col-sm-4">
+                                                   <h1 id="temp"></h1>
+                                                   <h6 style="" id="weath"></h6>
+                                                </div>
+                                                <div class="col-sm-4 col-5">
+                                                  
+                                                </div>
+                                                <div class="col-sm-4">
+                                                   <h5 style="" id ="pressure"></h5>
+                                                   <h5 style="" id="humidity"></h5>
+                                                   <h5 style=""  id="wind"></h5>
+                                                   <div class="row" style="">
+                                                      <div class="col-sm-4"></div>
+                                                      <div class="col-sm-4 col-5"></div>
+                                                      <div class="col-sm-4"></div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <a href="#" style="display: none;" class="btn btn-primary" id ="add-favorites">Add to favorites</a>
+                                          </div>
+                                       </div>
+                                    </div> © Firstly NodeJS 2021
+                                 </p>
+                              </footer>
+                           </div>
+                           <!-- /container -->
+                           <script  src="app.js">
+                           </script>
+                        </body>
+                     </html>

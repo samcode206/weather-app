@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <title>Login</title>
+    <style>
+        .body-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body class="body-container">
+    <div class="ui container">
+        <div class="ui placeholder segment">
+            <div class="ui two column very relaxed stackable grid">
+                <div class="column">
+                    <div class="ui form">
+                        <div class="field">
+                            <label>Username</label>
+                            <div class="ui left icon input">
+                                <input type="text" placeholder="Username" id="username">
+                                <i class="user icon"></i>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Password</label>
+                            <div class="ui left icon input">
+                                <input type="password" id='password'>
+                                <i class="lock icon"></i>
+                            </div>
+                        </div>
+                        <div class="field" id="confirm" style="display: none;">
+                            <label>Confirm Password</label>
+                            <div class="ui left icon input">
+                                <input type="password" id='confirm-password'>
+                                <i class="lock icon"></i>
+                            </div>
+                        </div>
+                        <div class="ui blue submit button" id='authBtn'>Login</div>
+                        <p style="padding-left: 150px; color: red" id='warn'></p>
+                    </div>
+                </div>
+                <div class="middle aligned column">
+                    <div class="ui big button" id='switch'>
+                        <i class="signup icon"></i>
+                        Sign Up
+                    </div>
+                </div>
+            </div>
+            <div class="ui vertical divider">
+                Or
+            </div>
+        </div>
+    </div>
+
+    <script src='login.js'>
+
+    </script>
+</body>
+
+</html>
